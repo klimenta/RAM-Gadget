@@ -7,3 +7,6 @@ C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Ga
 C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU-Gadget.csproj.GenerateResource.Cache
 C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU-Gadget.exe
 C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU-Gadget.pdb
+C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\bin\Release\CPU-Gadget.exe.config
+C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU-Gadget.exe
+C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU-Gadget.pdb

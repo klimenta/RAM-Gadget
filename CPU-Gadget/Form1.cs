@@ -80,7 +80,7 @@ namespace CPU_Gadget
             /// </summary>
             public ProcessorUsage()
             {
-                counter = new PerformanceCounter("Processor", "% Processor Time", "_Total", true);                
+                counter = new PerformanceCounter("Processor", "% Processor Time", "_Total");                
             }
 
             /// <summary>

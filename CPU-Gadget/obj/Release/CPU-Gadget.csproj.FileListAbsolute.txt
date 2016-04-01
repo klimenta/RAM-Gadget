@@ -1,0 +1,9 @@
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\bin\Release\CPU-Gadget.exe.config
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\bin\Release\CPU-Gadget.exe
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\bin\Release\CPU-Gadget.pdb
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU_Gadget.Form1.resources
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU_Gadget.frmOptions.resources
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU_Gadget.Properties.Resources.resources
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU-Gadget.csproj.GenerateResource.Cache
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU-Gadget.exe
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU-Gadget.pdb

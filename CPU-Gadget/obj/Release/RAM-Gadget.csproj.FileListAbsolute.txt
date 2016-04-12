@@ -1,0 +1,9 @@
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\bin\Release\RAM_Gadget.exe.config
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\bin\Release\RAM_Gadget.exe
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\bin\Release\RAM_Gadget.pdb
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\obj\Release\RAM_Gadget.Form1.resources
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\obj\Release\RAM_Gadget.frmOptions.resources
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\obj\Release\RAM_Gadget.Properties.Resources.resources
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\obj\Release\RAM-Gadget.csproj.GenerateResource.Cache
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\obj\Release\RAM_Gadget.exe
+C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\obj\Release\RAM_Gadget.pdb

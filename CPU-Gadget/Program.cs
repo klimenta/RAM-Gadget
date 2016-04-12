@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CPU_Gadget
+namespace RAM_Gadget
 {
     static class Program
     {

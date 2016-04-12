@@ -10,3 +10,10 @@ C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Ga
 C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\bin\Release\CPU-Gadget.exe.config
 C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU-Gadget.exe
 C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU-Gadget.pdb
+C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\bin\Release\CPU-Gadget.exe
+C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\bin\Release\CPU-Gadget.pdb
+C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU-Gadget.csprojResolveAssemblyReference.cache
+C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU_Gadget.Form1.resources
+C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU_Gadget.frmOptions.resources
+C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU_Gadget.Properties.Resources.resources
+C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Release\CPU-Gadget.csproj.GenerateResource.Cache

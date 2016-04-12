@@ -16,3 +16,7 @@ C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-G
 C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Debug\CPU-Gadget.csproj.GenerateResource.Cache
 C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Debug\CPU-Gadget.exe
 C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Debug\CPU-Gadget.pdb
+C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\CPU-Gadget\CPU-Gadget\obj\Debug\CPU-Gadget.csprojResolveAssemblyReference.cache
+C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\bin\Debug\CPU-Gadget.exe.config
+C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\obj\Debug\CPU-Gadget.exe
+C:\Users\klimenta.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\obj\Debug\CPU-Gadget.pdb

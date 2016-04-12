@@ -1,4 +1,4 @@
-﻿namespace CPU_Gadget
+﻿namespace RAM_Gadget
 {
     partial class frmOptions
     {

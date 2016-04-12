@@ -2,15 +2,16 @@
 using System.Drawing;
 using System.Windows.Forms;
 using System.Diagnostics;
+using Microsoft.VisualBasic.Devices;
 
-namespace CPU_Gadget
+namespace RAM_Gadget
 {
     public partial class Form1 : Form
     {
         const int intGapX = 2;
         int intX = intGapX;
         int intY = 60;
-        int intCPUUtilization = 0;
+        int intRAMUtilization = 0;
         public static int intWarningThreshold = 50;
         public static int intCriticalThreshold = 90;
         int intInterval = 0;
@@ -19,8 +20,9 @@ namespace CPU_Gadget
         public static bool bTransparent;
         public static bool bStayOnTop;
         public static int intTimer = 1;
-
-        ProcessorUsage puCPU = new ProcessorUsage();
+        public static ulong ulRAM;
+        
+        MemoryUsage muRAM = new MemoryUsage();
         public static Pen myRedPen = new Pen(System.Drawing.Color.Red);
         public static Pen myGreenPen = new Pen(System.Drawing.Color.Green);
         public static Pen myYellowPen = new Pen(System.Drawing.Color.Yellow);
@@ -38,7 +40,7 @@ namespace CPU_Gadget
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            DrawCPUUsage();
+            DrawRAMUsage();
             Invalidate();            
             intInterval++;
             if (intInterval == 100)
@@ -46,47 +48,39 @@ namespace CPU_Gadget
                 objBitmapGraphics.Clear(BackgroundColor);
                 intInterval = 0;
                 intX = intGapX;
-                lbl5min.Text = intCPUUtilization.ToString();                
+                lbl5min.Text = intRAMUtilization.ToString();                
             }
             if (intInterval == 20)
             {
-                lbl1min.Text = intCPUUtilization.ToString();
+                lbl1min.Text = intRAMUtilization.ToString();
             }
             if (intInterval == 40)
             {
-                lbl2min.Text = intCPUUtilization.ToString();
+                lbl2min.Text = intRAMUtilization.ToString();
             }
             if (intInterval == 60)
             {
-                lbl3min.Text = intCPUUtilization.ToString();
+                lbl3min.Text = intRAMUtilization.ToString();
             }
             if (intInterval == 80)
             {
-                lbl4min.Text = intCPUUtilization.ToString();
+                lbl4min.Text = intRAMUtilization.ToString();
             }       
         }
 
-        public class ProcessorUsage
+        public class MemoryUsage
         {
             const float sampleFrequencyMillis = 1000;
-
             protected object syncLock = new object();
             protected PerformanceCounter counter;
             protected float lastSample;
             protected DateTime lastSampleTime;
 
-            /// <summary>
-            /// 
-            /// </summary>
-            public ProcessorUsage()
+            public MemoryUsage()
             {
-                counter = new PerformanceCounter("Processor", "% Processor Time", "_Total");                
+                counter = new PerformanceCounter("Memory", "Available MBytes");                                     
             }
 
-            /// <summary>
-            /// 
-            /// </summary>
-            /// <returns></returns>
             public float GetCurrentValue()
             {
                 if ((DateTime.UtcNow - lastSampleTime).TotalMilliseconds > sampleFrequencyMillis)
@@ -100,7 +94,6 @@ namespace CPU_Gadget
                         }
                     }
                 }
-
                 return lastSample;
             }
         }
@@ -115,6 +108,9 @@ namespace CPU_Gadget
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            ComputerInfo CI = new ComputerInfo();
+            ulRAM = (CI.TotalPhysicalMemory / 1024)  / 1024;
+                        
             BackColor = Color.Black;
             BackgroundColor = BackColor;
             AllowTransparency = true;
@@ -127,21 +123,22 @@ namespace CPU_Gadget
             bmpSurface = new Bitmap(ClientRectangle.Width, ClientRectangle.Height);            
             objBitmapGraphics = Graphics.FromImage(bmpSurface);
             objBitmapGraphics.Clear(BackgroundColor);
-            rectBounds = new Rectangle(0, 0, bmpSurface.Width, bmpSurface.Height);            
+            rectBounds = new Rectangle(0, 0, bmpSurface.Width, bmpSurface.Height);
         }
 
-        private void DrawCPUUsage()
+        private void DrawRAMUsage()
         {         
-            float flCPU = puCPU.GetCurrentValue();
-            intCPUUtilization = Convert.ToInt32(flCPU);    
+            float flRAM = muRAM.GetCurrentValue();
+            flRAM = 100 - ((flRAM / ulRAM) * 100);
+            intRAMUtilization = Convert.ToInt32(flRAM);           
 
-            if (intCPUUtilization < intWarningThreshold) { penColor = myGreenPen; }
-            if (intCPUUtilization >= intWarningThreshold && intCPUUtilization <= intCriticalThreshold) { penColor = myYellowPen; }
-            if (intCPUUtilization > intCriticalThreshold) { penColor = myRedPen; }
+            if (intRAMUtilization < intWarningThreshold) { penColor = myGreenPen; }
+            if (intRAMUtilization >= intWarningThreshold && intRAMUtilization <= intCriticalThreshold) { penColor = myYellowPen; }
+            if (intRAMUtilization > intCriticalThreshold) { penColor = myRedPen; }
 
             rectBounds.Inflate(-1, -1);
 
-            objBitmapGraphics.DrawLine(penColor, intX, intY , intX , intY - (intCPUUtilization / 2) );            
+            objBitmapGraphics.DrawLine(penColor, intX, intY , intX , intY - (intRAMUtilization / 2) );            
             
             intX = intX + 1;
         }

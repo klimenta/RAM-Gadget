@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace CPU_Gadget
+namespace RAM_Gadget
 {
     public partial class frmOptions : Form
     {

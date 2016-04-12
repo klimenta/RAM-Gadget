@@ -1,4 +1,4 @@
-﻿namespace CPU_Gadget
+﻿namespace RAM_Gadget
 {
     partial class Form1
     {
@@ -106,7 +106,7 @@
             // 
             // pbMove
             // 
-            this.pbMove.Image = global::CPU_Gadget.Properties.Resources.hand_off;
+            this.pbMove.Image = global::RAM_Gadget.Properties.Resources.hand_off;
             this.pbMove.Location = new System.Drawing.Point(112, 58);
             this.pbMove.Name = "pbMove";
             this.pbMove.Size = new System.Drawing.Size(20, 20);
@@ -121,7 +121,7 @@
             // 
             // pbOptions
             // 
-            this.pbOptions.Image = global::CPU_Gadget.Properties.Resources.options_off;
+            this.pbOptions.Image = global::RAM_Gadget.Properties.Resources.options_off;
             this.pbOptions.Location = new System.Drawing.Point(114, 33);
             this.pbOptions.Name = "pbOptions";
             this.pbOptions.Size = new System.Drawing.Size(15, 15);
@@ -134,7 +134,7 @@
             // 
             // pbMinimize
             // 
-            this.pbMinimize.Image = global::CPU_Gadget.Properties.Resources.min_off;
+            this.pbMinimize.Image = global::RAM_Gadget.Properties.Resources.min_off;
             this.pbMinimize.Location = new System.Drawing.Point(114, 17);
             this.pbMinimize.Name = "pbMinimize";
             this.pbMinimize.Size = new System.Drawing.Size(15, 15);
@@ -147,7 +147,7 @@
             // 
             // pbExit
             // 
-            this.pbExit.Image = global::CPU_Gadget.Properties.Resources.close_off;
+            this.pbExit.Image = global::RAM_Gadget.Properties.Resources.close_off;
             this.pbExit.Location = new System.Drawing.Point(114, 1);
             this.pbExit.Name = "pbExit";
             this.pbExit.Size = new System.Drawing.Size(15, 15);

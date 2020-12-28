@@ -7,3 +7,13 @@ C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Ga
 C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\obj\Release\RAM-Gadget.csproj.GenerateResource.Cache
 C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\obj\Release\RAM_Gadget.exe
 C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\obj\Release\RAM_Gadget.pdb
+P:\dotnet\RAM-Gadget\CPU-Gadget\bin\Release\RAM_Gadget.exe.config
+P:\dotnet\RAM-Gadget\CPU-Gadget\bin\Release\RAM_Gadget.exe
+P:\dotnet\RAM-Gadget\CPU-Gadget\bin\Release\RAM_Gadget.pdb
+P:\dotnet\RAM-Gadget\CPU-Gadget\obj\Release\RAM_Gadget.Form1.resources
+P:\dotnet\RAM-Gadget\CPU-Gadget\obj\Release\RAM_Gadget.frmOptions.resources
+P:\dotnet\RAM-Gadget\CPU-Gadget\obj\Release\RAM_Gadget.Properties.Resources.resources
+P:\dotnet\RAM-Gadget\CPU-Gadget\obj\Release\RAM-Gadget.csproj.GenerateResource.cache
+P:\dotnet\RAM-Gadget\CPU-Gadget\obj\Release\RAM-Gadget.csproj.CoreCompileInputs.cache
+P:\dotnet\RAM-Gadget\CPU-Gadget\obj\Release\RAM_Gadget.exe
+P:\dotnet\RAM-Gadget\CPU-Gadget\obj\Release\RAM_Gadget.pdb

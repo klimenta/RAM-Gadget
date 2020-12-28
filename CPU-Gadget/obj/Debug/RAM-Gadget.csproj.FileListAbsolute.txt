@@ -16,3 +16,13 @@ C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Ga
 C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\obj\Debug\RAM_Gadget.frmOptions.resources
 C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\obj\Debug\RAM_Gadget.Properties.Resources.resources
 C:\Users\Kliment.ANDREEV\Documents\Visual Studio 2015\Projects\RAM-Gadget\CPU-Gadget\obj\Debug\RAM-Gadget.csproj.GenerateResource.Cache
+P:\dotnet\RAM-Gadget\CPU-Gadget\bin\Debug\RAM_Gadget.exe.config
+P:\dotnet\RAM-Gadget\CPU-Gadget\bin\Debug\RAM_Gadget.exe
+P:\dotnet\RAM-Gadget\CPU-Gadget\bin\Debug\RAM_Gadget.pdb
+P:\dotnet\RAM-Gadget\CPU-Gadget\obj\Debug\RAM_Gadget.Form1.resources
+P:\dotnet\RAM-Gadget\CPU-Gadget\obj\Debug\RAM_Gadget.frmOptions.resources
+P:\dotnet\RAM-Gadget\CPU-Gadget\obj\Debug\RAM_Gadget.Properties.Resources.resources
+P:\dotnet\RAM-Gadget\CPU-Gadget\obj\Debug\RAM-Gadget.csproj.GenerateResource.cache
+P:\dotnet\RAM-Gadget\CPU-Gadget\obj\Debug\RAM-Gadget.csproj.CoreCompileInputs.cache
+P:\dotnet\RAM-Gadget\CPU-Gadget\obj\Debug\RAM_Gadget.exe
+P:\dotnet\RAM-Gadget\CPU-Gadget\obj\Debug\RAM_Gadget.pdb
